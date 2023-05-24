@@ -1,0 +1,36 @@
+import java.awt.JobAttributes;
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+public class Procesos {
+
+	public static void main(String[] args) {
+	
+		ArrayList<String>nombres=new ArrayList<String>();
+		ArrayList<String>telefono=new ArrayList<String>();
+		ArrayList<Integer>imc=new ArrayList<Integer>();
+		
+		double  peso;
+		double talla;
+		
+		
+		
+		int cant = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de personas"));
+		
+		for(int i=0; i<cant;i++) {
+			String nombre = JOptionPane.showInputDialog("Ingrese el nombre  ");
+           nombres.add(nombre);
+			
+           String telef = JOptionPane.showInputDialog("Ingrese el telefono  ");
+           telefono.add(telef);
+           
+           peso=Double.parseDouble(JOptionPane.showInputDialog("ingrese el peso"));
+           talla=Double.parseDouble(JOptionPane.showInputDialog("ingrese la talla"));
+		}
+		
+System.out.println(nombres);
+System.out.println(telefono);
+	}
+
+}

@@ -1,0 +1,26 @@
+
+public class Procesos1 {
+
+	
+	public Procesos() {
+		
+		
+		
+		
+	}
+	
+	
+	
+	public void ingresardatos(){
+		
+	}
+	
+	private void imprimmirlista() {
+		
+	}
+	
+	
+	private void calcularresultado() {
+		
+	}
+}

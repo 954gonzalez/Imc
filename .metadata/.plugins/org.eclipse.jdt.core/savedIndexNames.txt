@@ -1,0 +1,3 @@
+INDEX VERSION 1.132+C:\Users\SENA\Downloads\IMCarrayList\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2297404378.index
